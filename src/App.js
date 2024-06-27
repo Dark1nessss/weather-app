@@ -8,7 +8,7 @@ function App() {
 
   const getWeather = async () => {
     try {
-      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_API_KEY&units=metric`);
+      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=180b60933ff059f5088fe4b4a55c12fb&units=metric`);
       if (!response.ok) {
         throw new Error('City not found');
       }
